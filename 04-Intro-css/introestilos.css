@@ -14,3 +14,28 @@
 .color-rgba {
   color: rgba(40, 158, 25, 0.85);
 }
+
+.fondo {
+  background-color: cornflowerblue;
+  background-image: url("https://wwwhatsnew.com/wp-content/uploads/2021/01/aprender-css.jpg");
+  background-position: center center;
+
+}
+
+.ancho {
+  background-color: aqua;
+  width: 100px;
+}
+
+.alto {
+  background-color: blueviolet;
+  height: 200px;
+}
+
+.tarjeta {
+  border-style: solid;
+  border-color: rgb(150, 150, 150);
+  border-width: 1px;
+  padding: 10px 20px;
+  margin: 10px 20px;
+}
