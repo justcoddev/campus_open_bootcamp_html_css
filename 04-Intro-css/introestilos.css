@@ -1,0 +1,16 @@
+/* estilos para colores */
+.colores {
+  color: brown;
+}
+
+.color-hexadecimal {
+  color: #BCE784;
+}
+
+.color-rgb {
+  color: rgb(53, 71, 226);
+}
+
+.color-rgba {
+  color: rgba(40, 158, 25, 0.85);
+}

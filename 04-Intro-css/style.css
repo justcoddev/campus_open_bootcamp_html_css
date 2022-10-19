@@ -1,0 +1,26 @@
+*{
+  color: yellow;
+}
+h1 {
+  background-color: blueviolet;
+}
+
+p {
+  color: blueviolet;
+  font-size: 16pt;
+}
+
+#primer-p {
+  color: blue;
+  font-size: 12pt;
+}
+
+#segundo-p {
+  color: aqua;
+
+}
+
+.encabezado {
+  font-size: 30pt;
+  text-transform: uppercase;
+}
