@@ -1,0 +1,33 @@
+div {
+  border: 1px solid gray;
+  padding: 5px;
+  margin: 5px;
+}
+
+/* Se posiciona en relación al posicionamiento original */
+.relative {
+  position: relative;
+  left: 80px;
+  margin-left: 10px;
+}
+
+/* Se posiciona en relación a la pantalla */
+.fixed {
+  position: fixed;
+  bottom: 0px;
+  left: opx;
+  background-color: greenyellow;
+}
+
+/* Se posiciona de forma absoluta en funcion de su elemento padre, Body  */
+.absolute {
+  position: absolute;
+  bottom: 30px;
+  right: 0px;
+}
+
+.relative.contenedor{
+  width: 300px;
+  height: 400px;
+  background-color: aquamarine;
+}
