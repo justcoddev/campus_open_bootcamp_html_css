@@ -15,8 +15,9 @@ div {
 .fixed {
   position: fixed;
   bottom: 0px;
-  left: opx;
+  left: 0px;
   background-color: greenyellow;
+  z-index: 10;
 }
 
 /* Se posiciona de forma absoluta en funcion de su elemento padre, Body  */
@@ -26,8 +27,19 @@ div {
   right: 0px;
 }
 
-.relative.contenedor{
+/* se adapta al contenedor la posicion absolute */
+.relative.contenedor {
   width: 300px;
   height: 400px;
   background-color: aquamarine;
+}
+
+/* se queda como menu que se deplaza al hacer scroll */
+.sticky {
+  background-color: darksalmon;
+  position: sticky;
+  color: white;
+  top: 0px;
+  z-index: 2;
+
 }
